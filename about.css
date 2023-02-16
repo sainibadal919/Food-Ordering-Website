@@ -1,0 +1,132 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+body{
+    height: 200vh;
+    width: 100vw;
+    /* background-color: aquamarine; */
+}
+.navbar{
+    display: flex;
+    position: sticky;
+    margin-top: -30px;
+    top: 0px;
+    justify-content: space-between;
+    align-items: center;
+    height: 8%;
+    box-shadow: 1px 1px 3px rgb(167, 165, 165);
+    background-color: white;
+    padding-right: 30px;
+}
+.navbar .logo{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 8%;
+}
+.logo h1{
+    color: red;
+    margin-right: 10px;
+}
+.logo p{
+    padding: 5px;
+    border: 1px solid black;
+}
+.navlist ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.navlist ul li{
+    margin: 10px;
+    font-size: 20px;
+    
+}
+.navlist ul li a{
+    color: rgb(55, 52, 52);
+}
+.title{
+    height: 60vh;
+    width: 100vw;
+    margin-top: 30px;
+    display: flex;
+  background-image: url(https://images.creativemarket.com/0.1.0/ps/4833749/1820/1213/m1/fpnw/wm1/wbqwlmk8mlit5kyyjpb0oeujbpxl7cdhdsl5x2gpo2chgdpuw1ulo22kdnnhhl76-.jpg?1532958573&s=79f2b8451dbf2e4e01281e7c7cc641e5);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.title div{
+    
+    height: 100%;
+    
+}
+.title .left{
+    padding: 25px;
+    width: 35%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+.title .middle{
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 24px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 30px;
+    background-color: white;
+}
+.title .right{
+    width: 35%;
+}
+.third{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 75vh;
+    width: 100%;
+    justify-content: center;
+    padding: 200px;
+    margin-top: 150px;
+    font-size: 20px;
+    padding-top: 100px;
+}
+.third .para{
+    margin-bottom: 70px;
+}
+.footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 40vh;
+    width: 100%;
+    background-color: rgb(40, 39, 39);
+}
+.footer div ul li{
+    margin: 10px;
+}
+
+.footer a{
+    color: white;
+    font-weight: 500;
+    font-size: 17px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.he{
+    font-size: 25px;
+    font-weight: 500;
+}
+.footer a:hover{
+    transition: all .5s;
+    font-size: 21px;
+    transform: translate(10px 10px);
+    color: brown;
+}

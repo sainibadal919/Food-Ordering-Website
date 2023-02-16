@@ -1,0 +1,70 @@
+body{
+    background-image: url(https://www.wallpapertip.com/wmimgs/54-549491_background-for-food-website.jpg);
+    font-family: "Roboto", sans-serif;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+
+}
+.signup-box{
+    width: 400px;
+    height: 560px;
+    border-radius: 10px;
+    /* box-shadow: 2px 2px 2px grey; */
+    background-color: white;
+    margin-bottom: -40px;
+    margin: auto;
+    border-radius: 3px;
+}
+h1{
+    text-align: center;
+    padding-top: 15px;
+}
+h4{
+    text-align: center;
+}
+form{
+    width: 300px;
+    margin-left: 20px;
+}
+form label{
+    display: flex;
+    margin-top: 20px;
+    font-size: 18px;
+}
+font input{
+    width: 100%;
+    padding: 7px;
+    border: none;
+    border: 1px solid gray;
+    border-radius: 7px;
+    outline: none;
+}
+input[type="button"]{
+    width: 370px;
+    height: 35px;
+    margin-top: 20px;
+    border: none;
+    background-color: aquamarine;
+    color: #fff;
+    font-size: 18px;
+}
+p{
+    text-align: center;
+    padding-top: 20px;
+    font-size: 15px;
+}
+.para-2{
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    margin-top: -10px;
+}
+.para-2 a{
+    background-color: brown;
+    color: white;
+    padding: 5px;
+    font-size: 15px;
+    border-radius: 10%;
+}

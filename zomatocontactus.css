@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    /* background-color: rgb(30, 28, 28); */
+    height: 100vh;
+    background-image: url(https://th.bing.com/th/id/OIP.iyy8dA04muVERQ3Q710xfAHaE7?pid=ImgDet&rs=1);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.container{
+    height: 85vh;
+    width: 70vw;
+    border-radius: 10px;
+    padding-top: 7%;
+    padding-left: 7%;
+    padding-right: 5%;
+    
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: white;
+    text-decoration: none;
+    
+}
+.leftcontainer{
+    width: 60%;
+    height: 100%;
+    
+}
+.rightcontainer{
+    width: 30%;
+    height: 100%;
+}
+p{
+    color: gray;
+}
